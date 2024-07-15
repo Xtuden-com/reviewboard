@@ -10,7 +10,7 @@ nose
 # Python 3.8 support for now when not running on Linux.
 p4python; python_version <= '3.7' or platform_system == 'Linux'
 
-setuptools>=18.2
+setuptools>=70.0.0
 
 # As of subvertpy 0.10.1, Python 3.8 support is busted, resulting in a
 # SystemError during usage (though installation works fine). 0.10.1 was
